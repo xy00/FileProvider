@@ -178,7 +178,7 @@ public struct ContentMIMEType: RawRepresentable, Hashable, Equatable {
     /// Common style sheet
     static public let css = ContentMIMEType(rawValue: "text/css")
     /// eXtended Markup language
-    static public let xml = ContentMIMEType(rawValue: "text/xml")
+    static public let xml = ContentMIMEType(rawValue: "application/xml")
     /// Javascript code file
     static public let javascript = ContentMIMEType(rawValue: "application/javascript")
     /// Javascript notation
